@@ -106,14 +106,22 @@ age = 1
 # YOU DO:
 # Determine if the dog loves to play and loves treats
 
+loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
 
+loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
 
+loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
 
+loves_to_play && age <= 1
+
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: puppy is not a defined variable, in my head I saw the age variable defined as 1 to be
+#a good cutoff for the puppy age, so I made the comparison age < 1 to ask if the dog is a
+#puppy. The return for my example is false. loves_to_play is true, puppy (age <1) is false, so
+#loves_to_play && age < 1 => false.
