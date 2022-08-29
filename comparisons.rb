@@ -61,20 +61,28 @@ puts "Is the number_students less than or equal to 21?", number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
+#This is asking if the integer 4 is less than the integer 9, the return will be true.
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+#This is defining the variable books with the integer 3, then asking if the integer 4 is less than the
+#variable books, which is 3. This will return false.
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+#This is defining the variable friends as the integer 6 and the siblings variable as the integer 2,
+#then asking if the friends variable (6) is greater than the siblings (2) variable. This will return true.
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+#This is defining the attendees variable with the integer 9 and the meals variable with the integer 8,
+#then asking if the attendees variable (9) is not equal to the meals variable (8). This will return
+#true
 
 
 #-------------------
